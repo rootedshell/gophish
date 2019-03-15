@@ -1,24 +1,22 @@
 # Gophish
 Gophish installation in Linux/Mac
+ <br/>
+## Prerequisite
+apt-get update && apt-get upgrade <br/>
+apt-get install golang <br/>
+apt-get install apache2 <br/>
+apt-get install sqlite3 <br/>
+apt-get install mysql-server <br/>
+apt-get install gcc <br/>
+apt-get install build-essential <br/>
 
-# Prerequisite
 
-apt-get update && apt-get upgrade
-apt-get install golang
-apt-get install apache2
-apt-get install sqlite3
-apt-get install mysql-server
-apt-get install gcc
-apt-get install build-essential
-
-
-# Install Steps for gophish
-
-mkdir /.go
-export GOPATH=/.go
-go get github.com/gophish/gophish
-cd ~/go/src/github.com/gophish/gophish
-go build
-./gophish
+## Install Steps for gophish
+mkdir /.go  <br/>
+export GOPATH=/.go <br/>
+go get github.com/gophish/gophish <br/>
+cd ~/go/src/github.com/gophish/gophish <br/>
+go build <br/>
+./gophish <br/>
 
 https://127.0.0.1:3333/
