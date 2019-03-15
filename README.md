@@ -1,4 +1,4 @@
-# Gophish
+# Gophish Installation
 Gophish installation in Linux/Mac
  <br/>
 ## Prerequisite
