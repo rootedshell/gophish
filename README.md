@@ -15,7 +15,7 @@ apt-get install build-essential <br/>
 mkdir /.go  <br/>
 export GOPATH=/.go <br/>
 go get github.com/gophish/gophish <br/>
-cd ~/go/src/github.com/gophish/gophish <br/>
+cd /.go/src/github.com/gophish/gophish <br/>
 go build <br/>
 ./gophish <br/>
 
