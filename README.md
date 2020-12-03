@@ -3,13 +3,7 @@ Gophish installation in Linux/Mac
  <br/>
 ## Prerequisite
 apt-get update && apt-get upgrade <br/>
-apt-get install golang <br/>
-apt-get install apache2 <br/>
-apt-get install sqlite3 <br/>
-apt-get install mysql-server <br/>
-apt-get install gcc <br/>
-apt-get install build-essential <br/>
-
+apt-get install golang apache2 sqlite3 mysql-server gcc build-essential
 
 ## Install Steps for gophish
 mkdir /.go  <br/>
